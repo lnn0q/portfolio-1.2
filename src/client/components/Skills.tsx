@@ -4,7 +4,7 @@ const Skills = () => {
   const skills = [
     {
       name: "TypeScript",
-      progress: 50,
+      progress: 40,
       id: 0,
     },
     {
@@ -14,7 +14,7 @@ const Skills = () => {
     },
     {
       name: "Node",
-      progress: 65,
+      progress: 60,
       id: 2,
     },
     {
@@ -24,7 +24,7 @@ const Skills = () => {
     },
     {
       name: "MongoDB",
-      progress: 75,
+      progress: 70,
       id: 4,
     },
   ];

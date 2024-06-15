@@ -1,4 +1,5 @@
 .skills {
+  max-width: 750px;
   width: 100%;
   padding: 10px 0;
   display: flex;
@@ -7,7 +8,8 @@
 }
 
 .skills__subContainer {
-  width: 50%;
+  /* width: 50%; */
+  width: 100%;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -19,10 +21,12 @@
   transition: 0.4s ease-in-out;
 }
 
+/*
 .skills__subContainer:hover,
 .skills__subContainer:hover .skills__ruler {
   border-color: var(--super_purple);
 }
+*/
 
 .skills__header {
   color: var(--super_purple);
@@ -66,7 +70,7 @@
 /* phone-only */
 @media (max-width: 599px) {
   .skills__subContainer {
-    width: 100%;
+    /* width: 100%; */
   }
 /*
   .skills__skillProgressBg,

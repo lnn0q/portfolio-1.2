@@ -7,9 +7,9 @@ const AboutMe = () => {
           Hi, my name's Bohdan! I'm a self-motivated Software Developer with
           over 3 years of experience that specializes in Full-Stack development
           with modern technologies such as React.js and Node.js frameworks. I
-          love learning new things and writing clean code. I try to think
-          outside the box wherever it’s called or apply the common knowledge
-          where it’s proven as the best approach. I also love teamwork!
+          love teamwork, learning new things and writing clean code. I try to
+          think outside the box wherever it’s called or apply the common
+          knowledge where it’s proven as the best approach.
         </div>
       </div>
       <div className="main__textSubContainer">

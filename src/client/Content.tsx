@@ -8,8 +8,8 @@ const Content = () => {
   return (
     <main>
       <Badge />
-      {/* <Skills /> */}
       <AboutMe />
+      {/* <Skills /> */}
     </main>
   );
 };

@@ -11,6 +11,7 @@ const Badge = () => {
 
   return (
     <div className="badge">
+      {/*Added upperPart to sep between badge and skills*/}
       <div className="badge__upperPart">
         <div className="badge__badgeLeft">
           {/* <div className="badge__profileIcon"></div> */}
@@ -48,7 +49,9 @@ const Badge = () => {
           </table>
         </div>
       </div>
-      <Skills />
+      <div className="badge__lowerPart">
+        <Skills />
+      </div>
     </div>
   );
 };
