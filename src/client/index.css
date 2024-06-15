@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Symbols Only';
+  src: url("/fonts/Symbols.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 24px;
+  font-family: 'Symbols Only', 'Courier New', Courier, monospace;
+  color-scheme: light dark;
+
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg0: #0e0d11;
+  --bg1: #1d1b22;
+  /* $bg1: #282A36; */
+  --sd: #1D1B22;
+  --fg: #F8F8F2;
+  --cl: #44475A;
+  --comment: #6272A4;
+  --cyan: #8BE9FD;
+  --green: #50FA7B;
+  --orange: #FFB86C;
+  --purple: #BD93F9;
+  --super_purple: #7359f8;
+  --red: #FF5555;
+  --yellow: #F1FA8C;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Structured elements */
+
+body {
+  margin: 0;
+  padding: 0;
+
+  min-height: 100vh;
+
+  background-color: var(--bg0);
+  color: var(--fg);
+}
+
+.App {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+}
+
+header {
+  width: 100%;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+main {
+  height: 1000px;
+  padding: 0.5em;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5em;
+}
+ 
+/* General elements */
+
+mark {
+  color: var(--super_purple);
+  background: none;
+}
+
+hr {
+  width: 100%;
+  /* color: #000; */
+  border: 1px solid var(--bg1);
+}
+
+a {
+  color: var(--super_purple);
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+a:active {
+  opacity: 0.5;
+}

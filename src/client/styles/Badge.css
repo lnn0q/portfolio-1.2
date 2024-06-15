@@ -1,0 +1,48 @@
+.badge {
+  width: 425px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: solid 2px var(--sd);
+  border-radius: 18px;
+  gap: 15px;  
+  transition: 0.4s ease-in-out;
+}
+
+.badge:hover {
+  border-color: var(--super_purple);
+}
+
+/* Apply with an inner 'Skills' component */
+.badge__upperPart {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.badge__badgeLeft {
+  /* width: 25%; */
+}
+
+.badge__profileIcon {
+  width: 125px;
+  height: 125px;
+  /* background-color: var(--purple); */
+  border-radius: 100%;
+}
+
+.badge__badgeRight {
+  width: 75%;
+}
+
+/* phone-only */
+@media (max-width: 599px) {
+  .badge {
+    width: 100%;
+    font-size: 0.8em;
+  }
+  .badge__profileIcon {
+    width: 100px;
+    height: 100px;
+  }
+}
