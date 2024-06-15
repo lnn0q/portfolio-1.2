@@ -1,0 +1,53 @@
+.aboutMe__textContainer {
+  padding: 10px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutMe__textSubContainer {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMe__header {
+  width: 100%;
+  /* padding: 10px 0px; */
+  color: var(--super_purple);
+  text-align: center;
+}
+
+.aboutMe__header--left {
+  font-size: 0.85em;
+  text-align: start;
+}
+
+.aboutMe__textBody {
+  font-size: 0.8em;
+}
+
+/* phone-only */
+@media (max-width: 599px) {
+  .aboutMe__textBody {
+    font-size: 0.68em;
+  }
+}
+
+/*
+.main__row1 {
+  display: flex;
+  gap: 15px;
+}
+
+.main__row2 {
+  padding: 15px 0px;
+}
+
+@media (max-width: 1000px) {
+  .main__row1 {
+    flex-direction: column;
+  }
+}
+*/
