@@ -5,7 +5,9 @@ const Header = () => {
       <div className="header__previewBox">
         <img src="/images/background.jpg" className="header__img" />
         <div className="header__labelModal">
-          <div className="header__labelTyped">Hi!</div>
+          <div className="header__labelTyped">
+            <div className="header__textTypewriter">Hi!</div>
+          </div>
         </div>
       </div>
     </header>

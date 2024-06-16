@@ -3,13 +3,25 @@
   src: url("/fonts/Symbols.ttf");
 }
 
+@font-face {
+  font-family: 'Agave Mono';
+  src: url("/fonts/AgaveNerdFontMonoModified-Regular.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Agave Mono';
+  src: url("/fonts/AgaveNerdFontMono-Bold.ttf");
+  font-weight: bold;
+}
+
 * {
   box-sizing: border-box;
 }
 
 :root {
   font-size: 24px;
-  font-family: 'Symbols Only', 'Courier New', Courier, monospace;
+  font-family: 'Symbols Only', 'Agave Mono', 'Courier New', Courier, monospace;
   color-scheme: light dark;
 
   scroll-behavior: smooth;
