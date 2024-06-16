@@ -28,10 +28,26 @@
   font-size: 0.8em;
 }
 
+.aboutMe__skillsSubContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutMe__skillsList {
+  columns: 2;
+  gap: 200px;
+}
+
 /* phone-only */
 @media (max-width: 599px) {
   .aboutMe__textBody {
     font-size: 0.68em;
+  }
+
+  .aboutMe__skillsList {
+    gap: 40px;
   }
 }
 
