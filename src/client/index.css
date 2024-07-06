@@ -33,6 +33,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  --mf: 'Agave Mono';
   --bg0: #0e0d11;
   --bg1: #1d1b22;
   /* $bg1: #282A36; */
@@ -101,6 +102,15 @@ mark {
   background: none;
 }
 
+label {
+  color: var(--super_purple);
+}
+
+h1, h2 {
+  all: unset;
+  color: var(--super_purple);
+}
+
 hr {
   width: 100%;
   /* color: #000; */
@@ -110,6 +120,7 @@ hr {
 a {
   color: var(--super_purple);
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {
@@ -118,4 +129,8 @@ a:hover {
 
 a:active {
   opacity: 0.5;
+}
+
+.icon {
+  font-family: 'Symbols Only';
 }

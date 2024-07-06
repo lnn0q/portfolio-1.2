@@ -1,0 +1,126 @@
+.contacts__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.textInfo {
+  font-size: 0.8em;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.socials--sub {
+  flex-direction: row;
+}
+
+.socials__socialsLink {
+  padding: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--super_purple);
+  border-radius: 18px;
+  transition: ease-in-out 0.5s all;
+}
+
+.socials__socialsLink--sub {
+  flex-direction: row;
+  gap: 15px;
+}
+
+.socials__svgContainer img {
+  width: 50px;
+}
+
+.socials__socialsLink:hover {
+  color: var(--fg);
+  border-color: var(--super_purple);
+  background-color: var(--super_purple);
+}
+
+.mailForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.mailForm__inputRow {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mailForm input {
+  all: unset;
+  padding: 5px 10px;
+  font-size: 0.8em;
+  background-color: var(--bg1);
+  border-radius: 10px;
+}
+
+.mailForm textarea {
+  padding: 5px 10px;
+  font-size: 0.8em;
+  color: var(--fg);
+  font-family: var(--mf);
+  background-color: var(--bg1);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.mailForm__button {
+  padding: 10px 20px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+
+  font-size: 1em;
+  color: var(--fg);
+  background-color: var(--super_purple);
+  border: none;
+  border-radius: 30px;
+  
+  cursor: pointer;
+ 
+  transition: ease-in-out 0.2s all;  
+}
+
+.mailForm__button:hover {
+  opacity: 0.8;
+}
+
+.mailForm__button:active {
+  opacity: 0.5;
+}
+
+.mailForm__notify {
+  position: fixed;
+  bottom: 15px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.mailForm__notify--error {
+  width: 320px;
+  background-color: var(--red);
+}
+
+.mailForm__notify--success {
+  right: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: var(--green);
+}

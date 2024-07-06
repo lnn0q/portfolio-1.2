@@ -1,4 +1,4 @@
-import "../styles/AboutMe.css";
+import "../../styles/AboutMe.css";
 
 const AboutMe = () => {
   const skills = [
@@ -11,7 +11,7 @@ const AboutMe = () => {
       id: 1,
     },
     {
-      name: "Javascript",
+      name: "JavaScript",
       id: 2,
     },
     {
@@ -39,83 +39,86 @@ const AboutMe = () => {
       id: 8,
     },
     {
-      name: "Three.js",
+      name: "NestJS",
       id: 9,
     },
     {
-      name: "SASS/SCSS",
+      name: "Three.js",
       id: 10,
     },
     {
-      name: "Git/Github/Gitlab",
+      name: "SASS/SCSS",
       id: 11,
     },
     {
-      name: "Rest API",
+      name: "Git",
       id: 12,
     },
     {
-      name: "CRUD",
+      name: "Rest API",
       id: 13,
     },
     {
-      name: "MVC",
+      name: "CRUD",
       id: 14,
     },
     {
-      name: "BEM",
+      name: "MVC",
       id: 15,
     },
     {
-      name: "FP/OOP",
+      name: "BEM",
       id: 16,
     },
     {
-      name: "Docker",
+      name: "FP/OOP",
       id: 17,
     },
     {
-      name: "Linux",
+      name: "Docker",
       id: 18,
     },
     {
-      name: "Bash",
+      name: "Linux",
       id: 19,
     },
     {
-      name: "Blender 3D",
+      name: "Bash",
       id: 20,
+    },
+    {
+      name: "Blender 3D",
+      id: 21,
     },
   ];
 
   return (
     <div className="aboutMe__textContainer">
       <div className="aboutMe__textSubContainer">
-        <div className="aboutMe__header">About me</div>
-        <div className="aboutMe__textBody">
+        <h1 className="aboutMe__header">About me</h1>
+        <article className="aboutMe__textBody">
           Hi, my name's Bohdan Denysenko! I'm a self-motivated Software
           Developer with over 3 years of experience that specializes in
           Full-Stack development with modern technologies such as React.js and
-          Node.js frameworks. I love teamwork, learning new things and writing
-          clean code. I try to think outside the box wherever it’s called or
-          apply the common knowledge where it’s proven as the best approach. I
-          also like Functional Programming as, in my opinion, it drastically
-          reduces the complexity of the code and makes it more readable.
-        </div>
+          Node.js frameworks. I enjoy teamwork, learning new things and writing
+          clean code. I strive to think outside the box when necessary and apply
+          the common knowledge where it’s proven to be the best approach. I am
+          also a fan of functional programming.
+        </article>
       </div>
       <div className="aboutMe__textSubContainer">
-        <div className="aboutMe__header aboutMe__header--left">
+        <h2 className="aboutMe__header aboutMe__header--left">
           Learning Directions:
-        </div>
-        <div className="aboutMe__textBody">
+        </h2>
+        <article className="aboutMe__textBody">
           Right now I’m working on solidifying my current knowledge and learning
           TypeScript, Nest and NextJS.
-        </div>
+        </article>
       </div>
       <div className="aboutMe__textSubContainer">
-        <div className="aboutMe__header aboutMe__header--left">
+        <h2 className="aboutMe__header aboutMe__header--left">
           Complete list of skills:
-        </div>
+        </h2>
         <div className="aboutMe__textBody">
           <div className="aboutMe__skillsSubContainer">
             <ul className="aboutMe__skillsList">

@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <footer>
       <hr />
-      <div className="footer__label">
-        &#xf1f9; {2024 !== year ? "2024 - " + year : "2024"}
-      </div>
+      {/* <div className="footer__label"> */}
+      {/*   &#xf1f9; {2024 !== year ? "2024 - " + year : "2024"} */}
+      {/* </div> */}
     </footer>
   );
 };

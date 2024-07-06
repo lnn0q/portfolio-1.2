@@ -1,13 +1,18 @@
-import "../styles/Badge.css";
+import "../../styles/Badge.css";
 import Skills from "./Skills";
+import { memo } from "react";
+
+interface CT {
+  videoSrc: string;
+}
 
 const Badge = () => {
-  function getAge(birthDate: string) {
+  const getAge = (birthDate: string) => {
     const [day, month, year] = birthDate.split(".").map(Number);
     const birth = new Date(year, month - 1, day);
     const ageDate = new Date(Date.now() - birth.getTime());
     return Math.abs(ageDate.getUTCFullYear() - 1970);
-  }
+  };
 
   return (
     <div className="badge">
@@ -37,7 +42,13 @@ const Badge = () => {
                 <td>
                   <mark>class:</mark>
                 </td>
-                <td>web-wizard</td>
+                <td>web-developer</td>
+              </tr>
+              <tr className="badge__class">
+                <td>
+                  <mark>spec:</mark>
+                </td>
+                <td>full-stack</td>
               </tr>
               <tr className="badge__age">
                 <td>

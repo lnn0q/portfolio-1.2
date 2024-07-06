@@ -34,7 +34,7 @@
 .badge__profileIcon {
   width: 125px;
   height: 125px;
-  /* background-color: var(--purple); */
+  background-color: var(--purple);
   border-radius: 100%;
 }
 
