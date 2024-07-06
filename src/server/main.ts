@@ -17,10 +17,10 @@ const __dirname = path.dirname(__filename);
 
 const httpsOptions = {
   // Path to your SSL certificate file
-  cert: fs.readFileSync("/etc/letsencrypt/live/lnn0q.dev/fullchain.pem"),
+  cert: fs.readFileSync("/etc/letsencrypt/live/n0q.dev/fullchain.pem"),
   //cert: fs.readFileSync(path.join(__dirname, "certs", "cert.crt")),
   // Path to your SSL private key file
-  key: fs.readFileSync("/etc/letsencrypt/live/lnn0q.dev/privkey.pem"),
+  key: fs.readFileSync("/etc/letsencrypt/live/n0q.dev/privkey.pem"),
   //key: fs.readFileSync(path.join(__dirname, "certs", "cert.key")),
 };
 
