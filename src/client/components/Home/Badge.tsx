@@ -54,7 +54,8 @@ const Badge = () => {
                 <td>
                   <mark>lvl:</mark>
                 </td>
-                <td>{getAge("11.06.2003")}</td>
+                <td>junior</td>
+                {/* <td>{getAge("11.06.2003")}</td> */}
               </tr>
             </tbody>
           </table>
