@@ -9,6 +9,10 @@
   animation: loading 1s ease-in-out infinite
 }
 
+.loader__screen {
+  opacity: 0;
+}
+
 @keyframes loading {
   0%, 100% {
     width: 10px;
