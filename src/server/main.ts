@@ -17,10 +17,10 @@ const __dirname = path.dirname(__filename);
 
 const httpsOptions = {
   // Path to your SSL certificate file
-  cert: fs.readFileSync("/etc/letsencrypt/live/n0q.dev/fullchain.pem"),
+  //1-cert: fs.readFileSync("/etc/letsencrypt/live/n0q.dev/fullchain.pem"),
   //cert: fs.readFileSync(path.join(__dirname, "certs", "cert.crt")),
   // Path to your SSL private key file
-  key: fs.readFileSync("/etc/letsencrypt/live/n0q.dev/privkey.pem"),
+  //1-key: fs.readFileSync("/etc/letsencrypt/live/n0q.dev/privkey.pem"),
   //key: fs.readFileSync(path.join(__dirname, "certs", "cert.key")),
 };
 
@@ -49,12 +49,12 @@ app.post("/api/contact", (req, res) => {
   }
 });
 
-//ViteExpress.listen(app, PORT, () =>
-//  console.log("Server is listening on port 3000...")
-//);
+ViteExpress.listen(app, PORT, () =>
+  console.log(`Server is listening on port ${PORT}...`)
+);
 
-const server = https.createServer(httpsOptions, app).listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}...`);
-});
+//const server = https.createServer(httpsOptions, app).listen(PORT, () => {
+//  console.log(`Server is listening on port ${PORT}...`);
+//});
 
-ViteExpress.bind(app, server);
+//ViteExpress.bind(app, server);
