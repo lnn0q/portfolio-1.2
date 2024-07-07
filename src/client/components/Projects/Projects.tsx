@@ -1,15 +1,28 @@
+import "../../styles/Projects.css";
 import ProjectCell from "./ProjectCell";
 
 const projects = [
   {
     name: "portfolio-1.2",
-    link: "n0q.dev",
+    link: "https://n0q.dev/",
     gh_link: "https://github.com/lnn0q/portfolio-1.2",
-    thumbnail: "",
+    thumbnail:
+      "https://github.com/lnn0q/eml-builder/raw/main/assets/screen_view_1.png",
     description: "This website (o´ω`o)ﾉ",
-    status: [],
-    techstack: [],
+    status: "in progress",
+    techstack: ["react", "express", "node", "typescript"],
     id: "1",
+  },
+  {
+    name: "eml-builder",
+    link: "",
+    gh_link: "https://github.com/lnn0q/eml-builder",
+    thumbnail:
+      "https://github.com/lnn0q/eml-builder/raw/main/assets/screen_view_1.png",
+    description: "Web-based eml generator 🪶",
+    status: "complete",
+    techstack: ["react", "express", "node", "mongodb"],
+    id: "2",
   },
 ];
 

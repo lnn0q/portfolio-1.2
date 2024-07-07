@@ -10,6 +10,8 @@
   font-size: 0.8em;
 }
 
+/* Socials */
+
 .socials {
   display: flex;
   flex-direction: column;
@@ -47,6 +49,8 @@
   border-color: var(--super_purple);
   background-color: var(--super_purple);
 }
+
+/* Form */
 
 .mailForm {
   display: flex;

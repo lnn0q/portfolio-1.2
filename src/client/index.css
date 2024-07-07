@@ -17,6 +17,14 @@
 
 * {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased !important;
+  font-variant-ligatures: none !important;
+  font-feature-settings: 'liga' 0 !important;
+  font-kerning: none !important;
+  text-rendering: optimizespeed !important;
 }
 
 :root {
@@ -42,7 +50,9 @@
   --cl: #44475A;
   --comment: #6272A4;
   --cyan: #8BE9FD;
-  --green: #50FA7B;
+  --sky: #04a5e5;
+  /* --green: #50FA7B; */
+  --green: #06d73b;
   --orange: #FFB86C;
   --purple: #BD93F9;
   --super_purple: #7359f8;
