@@ -51,14 +51,12 @@ const Form = () => {
   return (
     <>
       {isError && (
-        <div className="mailForm__notify mailForm__notify--error">
+        <div className="notification notification--error">
           Error: {errorMsg}
         </div>
       )}
       {isSuccess && (
-        <div className="mailForm__notify mailForm__notify--success">
-          Message sent!
-        </div>
+        <div className="notification notification--success">Message sent!</div>
       )}
       <form className="mailForm" onSubmit={onSubmit}>
         <label>Mail me!</label>

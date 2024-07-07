@@ -109,22 +109,3 @@
 .mailForm__button:active {
   opacity: 0.5;
 }
-
-.mailForm__notify {
-  position: fixed;
-  bottom: 15px;
-  padding: 5px;
-  border-radius: 15px;
-}
-
-.mailForm__notify--error {
-  width: 320px;
-  background-color: var(--red);
-}
-
-.mailForm__notify--success {
-  right: 10px;
-  width: 200px;
-  text-align: center;
-  background-color: var(--green);
-}

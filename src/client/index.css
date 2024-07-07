@@ -94,6 +94,7 @@ header {
 
 main {
   /* height: 1000px; */
+  min-height: 100vh;
   padding: 0.5em;
 }
 
@@ -143,4 +144,25 @@ a:active {
 
 .icon {
   font-family: 'Symbols Only';
+}
+
+/* Nonitfy */
+.notification {
+  position: fixed;
+  bottom: 15px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.notification--error {
+  left: 10px;
+  width: 320px;
+  background-color: var(--red);
+}
+
+.notification--success {
+  left: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: var(--green);
 }
