@@ -7,7 +7,7 @@ const projects = [
     link: "https://n0q.dev/",
     gh_link: "https://github.com/lnn0q/portfolio-1.2",
     thumbnail:
-      "https://github.com/lnn0q/eml-builder/raw/main/assets/screen_view_1.png",
+      "https://github.com/lnn0q/portfolio-1.2/raw/main/assets/preview-1.png",
     description: "This website (o´ω`o)ﾉ",
     status: "in progress",
     techstack: ["react", "express", "node", "typescript"],
