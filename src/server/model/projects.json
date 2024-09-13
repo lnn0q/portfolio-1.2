@@ -28,5 +28,17 @@
       "mongodb"
     ],
     "id": "2"
+  },
+  {
+    "name": "lnreader",
+    "link": "",
+    "gh_link": "https://github.com/lnn0q/lnreader",
+    "thumbnail": "https://github.com/lnn0q/lnreader/raw/main/preview/img-home.png",
+    "description": "Your handy e-pub lib&reader! ",
+    "status": "complete",
+    "techstack": [
+      "react"
+    ],
+    "id": "3"
   }
 ]
